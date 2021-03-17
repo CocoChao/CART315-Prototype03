@@ -9,12 +9,14 @@ public class CharController : MonoBehaviour
     //[SerializedField] private Transform groundCheckTransform = null;
     private bool jumpKeyWasPressed;
     public float movementSpeed = 40f;
+    private Rigidbody rigidbodyComponent;
+    private bool isGrounded;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rigidbodyComponent = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -36,14 +38,28 @@ public class CharController : MonoBehaviour
  
     private void FixedUpdate()
     {
+        if (!isGrounded)
+        {
+            return;
+        }
 
         if (jumpKeyWasPressed)
         {
             // Debug.Log("Space Key Was Pressed Down");
-            GetComponent<Rigidbody>().AddForce(Vector3.up * 5, ForceMode.VelocityChange);
+            rigidbodyComponent.AddForce(Vector3.up * 10, ForceMode.VelocityChange);
             jumpKeyWasPressed = false;
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        isGrounded = true;
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        isGrounded = false;
+    }
+
 
     //private void OnTriggerEnter(Collider other)
     //{
