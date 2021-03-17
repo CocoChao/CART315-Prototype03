@@ -58,7 +58,7 @@ public class CharController : MonoBehaviour
         {
             //Debug.Log("Collision Detected");
             Destroy(other.gameObject);
-            ScoreScript.scoreValue += 2;
+            ScoreScript.scoreValue += 1;
         }
     }
 
