@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Set the character movement speed
-
 public class CharController : MonoBehaviour
 {
-    //[SerializedField] private Transform groundCheckTransform = null;
     private bool jumpKeyWasPressed;
     public float movementSpeed = 40f;
     private Rigidbody rigidbodyComponent;
@@ -53,6 +50,15 @@ public class CharController : MonoBehaviour
             // Debug.Log("Space Key Was Pressed Down");
             rigidbodyComponent.AddForce(Vector3.up * 10, ForceMode.VelocityChange);
             jumpKeyWasPressed = false;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 6)
+        {
+            //Debug.Log("Collision Detected");
+            Destroy(other.gameObject);
+            ScoreScript.scoreValue += 2;
         }
     }
 
