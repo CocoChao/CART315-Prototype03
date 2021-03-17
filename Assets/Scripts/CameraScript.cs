@@ -8,11 +8,12 @@ public class CameraScript : MonoBehaviour
 {
     Vector2 rotation = new Vector2(0, 0);
     public float speed = 1;
+    public GameObject target;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.GetComponent<Transform>().LookAt(target.transform);
     }
 
     // Update is called once per frame
@@ -20,6 +21,7 @@ public class CameraScript : MonoBehaviour
     {
         rotation.y += Input.GetAxis("Mouse X");
         rotation.x += -Input.GetAxis("Mouse Y");
-        transform.eulerAngles = (Vector2)rotation * speed;
+       // transform.eulerAngles = (Vector2)rotation * speed;
+     
     }
 }
