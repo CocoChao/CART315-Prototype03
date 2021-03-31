@@ -9,6 +9,7 @@ public class LoopMotionX: MonoBehaviour
     public float delta = 1.5f;  // Amount to move left and right from the start point
     public float speed = 2.0f;
     private Vector3 startPos;
+    public Vector3 velocity;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class LoopMotionX: MonoBehaviour
     {
         Vector3 v = startPos;
         v.x += delta * Mathf.Sin(Time.time * speed);
+        velocity = v - transform.position;
         transform.position = v;
     }
 }

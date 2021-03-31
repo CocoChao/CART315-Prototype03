@@ -3304,7 +3304,7 @@ GameObject:
   - component: {fileID: 325717624}
   m_Layer: 0
   m_Name: MovingIcebergX (5)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTagX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3323,6 +3323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &325717625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3393,10 +3394,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325717623}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -103.25101, y: 45.56579, z: 101.15066}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: -32.99656, y: 0.8953934, z: 100.91039}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &327728871
@@ -3577,7 +3578,7 @@ Transform:
   - {fileID: 1674018373}
   - {fileID: 1289373376}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &347988088
 PrefabInstance:
@@ -4951,7 +4952,7 @@ GameObject:
   - component: {fileID: 460122424}
   m_Layer: 0
   m_Name: MovingIcebergZ (3)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4970,6 +4971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &460122425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5040,10 +5042,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460122423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.77101, y: 45.56579, z: -49.249336}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 21.483437, y: 0.8953934, z: -49.4896}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &466374212
@@ -5575,7 +5577,7 @@ GameObject:
   - component: {fileID: 563606174}
   m_Layer: 0
   m_Name: MovingIcebergX
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTagX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5594,6 +5596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &563606175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5664,10 +5667,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563606173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.251011, y: 45.56579, z: 96.45066}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 68.00343, y: 0.8953934, z: 96.210396}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &564800348
@@ -6476,7 +6479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635215856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.062202, y: 44.949043, z: -76.838196}
+  m_LocalPosition: {x: -29.062202, y: 40, z: -76.838196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1401316416}
@@ -7229,7 +7232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722379829}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -127.68392, y: 44.949043, z: 19.761086}
+  m_LocalPosition: {x: -127.68392, y: 40, z: 19.761086}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1434907564}
@@ -7553,7 +7556,7 @@ Transform:
   - {fileID: 2097678950}
   - {fileID: 380257828}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &764339216
 PrefabInstance:
@@ -7632,7 +7635,7 @@ GameObject:
   - component: {fileID: 799499378}
   m_Layer: 0
   m_Name: MovingIcebergZ (4)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7651,6 +7654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &799499379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7721,11 +7725,53 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799499377}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -152.05101, y: 45.56579, z: -49.94934}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: -81.79656, y: 0.8953934, z: -50.189606}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &803145066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803145067}
+  m_Layer: 0
+  m_Name: MovingIcebergs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &803145067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803145066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.703438, y: -4.8953934, z: 0.18960571}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1729725151}
+  - {fileID: 1955595208}
+  - {fileID: 1131779052}
+  - {fileID: 460122428}
+  - {fileID: 799499382}
+  - {fileID: 967319373}
+  - {fileID: 563606178}
+  - {fileID: 1423401344}
+  - {fileID: 1977070331}
+  - {fileID: 2114953765}
+  - {fileID: 1053177290}
+  - {fileID: 325717628}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &805801141
 PrefabInstance:
@@ -8221,7 +8267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867310986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.41608, y: 44.949043, z: 20.561089}
+  m_LocalPosition: {x: 70.41608, y: 40, z: 20.561089}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1225896067}
@@ -8811,7 +8857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3d5de7ebb28ef4298d65d313a85cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 40
+  movementSpeed: 20
   rigidBody: {fileID: 901566996}
 --- !u!54 &901566996
 Rigidbody:
@@ -9356,7 +9402,7 @@ GameObject:
   - component: {fileID: 967319369}
   m_Layer: 0
   m_Name: MovingIcebergZ (5)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9375,6 +9421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &967319370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9445,10 +9492,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967319368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50.748993, y: 45.56579, z: -48.44934}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 121.00344, y: 0.8953934, z: -48.689606}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &990915144
@@ -9670,7 +9717,7 @@ Transform:
   - {fileID: 287741464}
   - {fileID: 1180966004}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1053177285
 GameObject:
@@ -9687,7 +9734,7 @@ GameObject:
   - component: {fileID: 1053177286}
   m_Layer: 0
   m_Name: MovingIcebergX (4)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTagX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9706,6 +9753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &1053177287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9776,10 +9824,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053177285}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -103.25101, y: 45.56579, z: -99.749344}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: -32.99656, y: 0.8953934, z: -99.98961}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1061964579
@@ -10749,7 +10797,7 @@ GameObject:
   - component: {fileID: 1131779048}
   m_Layer: 0
   m_Name: MovingIcebergZ (2)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10768,6 +10816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &1131779049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10838,10 +10887,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131779047}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -152.05101, y: 45.56579, z: 48.52066}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: -81.79656, y: 0.8953934, z: 48.280396}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1132077733
@@ -11063,7 +11112,7 @@ Transform:
   - {fileID: 1785513803}
   - {fileID: 1331694354}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1155532658
 PrefabInstance:
@@ -11422,21 +11471,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 52.55101, y: -48.06579, z: -0.050661087}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1729725151}
-  - {fileID: 1955595208}
-  - {fileID: 1131779052}
-  - {fileID: 460122428}
-  - {fileID: 799499382}
-  - {fileID: 967319373}
-  - {fileID: 563606178}
-  - {fileID: 1423401344}
-  - {fileID: 1977070331}
-  - {fileID: 2114953765}
-  - {fileID: 1053177290}
-  - {fileID: 325717628}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1180826046
 PrefabInstance:
@@ -11609,7 +11646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180965999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.062202, y: 44.949043, z: 20.561089}
+  m_LocalPosition: {x: -29.062202, y: 40, z: 20.561089}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1028938563}
@@ -11968,7 +12005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206204166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -127.68392, y: 44.949043, z: -174.23819}
+  m_LocalPosition: {x: -127.68392, y: 40, z: -174.23819}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1348978408}
@@ -12178,7 +12215,7 @@ Transform:
   - {fileID: 1871805184}
   - {fileID: 867310991}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1241574842
 PrefabInstance:
@@ -12925,7 +12962,7 @@ Transform:
   - {fileID: 1206204171}
   - {fileID: 511796302}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1350673047
 PrefabInstance:
@@ -13211,7 +13248,7 @@ Transform:
   - {fileID: 1108659013}
   - {fileID: 1608771227}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1390199893
 PrefabInstance:
@@ -13398,7 +13435,7 @@ Transform:
   - {fileID: 1572461317}
   - {fileID: 635215860}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1423401339
 GameObject:
@@ -13415,7 +13452,7 @@ GameObject:
   - component: {fileID: 1423401340}
   m_Layer: 0
   m_Name: MovingIcebergX (1)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTagX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13434,6 +13471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &1423401341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13504,10 +13542,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423401339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.251011, y: 45.56579, z: -0.34933892}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 68.00343, y: 0.8953934, z: -0.5896057}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434907563
@@ -13543,7 +13581,7 @@ Transform:
   - {fileID: 722379834}
   - {fileID: 308735891}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1439964443
 PrefabInstance:
@@ -14959,7 +14997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608771222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.41608, y: 44.949043, z: -75.938194}
+  m_LocalPosition: {x: 70.41608, y: 40, z: -75.938194}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1380032191}
@@ -16030,7 +16068,7 @@ GameObject:
   - component: {fileID: 1729725147}
   m_Layer: 0
   m_Name: MovingIcebergZ
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16049,6 +16087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &1729725148
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16056,7 +16095,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729725146}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: afb38a9b5976c494c8535cadad930388, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -16119,10 +16158,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729725146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.77101, y: 45.56579, z: 48.52066}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 21.483437, y: 0.8953934, z: 48.280396}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1770572343 stripped
@@ -16301,7 +16340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785513798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.2622, y: 44.949043, z: -174.23819}
+  m_LocalPosition: {x: -28.2622, y: 40, z: -174.23819}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155105753}
@@ -16581,7 +16620,7 @@ Transform:
   - {fileID: 1124582593}
   - {fileID: 2011582259}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1807757271
 PrefabInstance:
@@ -18093,7 +18132,7 @@ GameObject:
   - component: {fileID: 1955595204}
   m_Layer: 0
   m_Name: MovingIcebergZ (1)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18112,6 +18151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &1955595205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18182,10 +18222,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955595203}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50.748993, y: 45.56579, z: 48.52066}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 121.00344, y: 0.8953934, z: 48.280396}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1960035218 stripped
@@ -18208,7 +18248,7 @@ GameObject:
   - component: {fileID: 1977070327}
   m_Layer: 0
   m_Name: MovingIcebergX (2)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTagX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18227,6 +18267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &1977070328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18297,10 +18338,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977070326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.251011, y: 45.56579, z: -100.14934}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: 68.00343, y: 0.8953934, z: -100.3896}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1993626743 stripped
@@ -18541,7 +18582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011582254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.41608, y: 44.949043, z: -174.23819}
+  m_LocalPosition: {x: 70.41608, y: 40, z: -174.23819}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1807613599}
@@ -19279,7 +19320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097678945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -127.68392, y: 44.949043, z: -76.23891}
+  m_LocalPosition: {x: -127.68392, y: 40, z: -76.23891}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 732613109}
@@ -19409,7 +19450,7 @@ GameObject:
   - component: {fileID: 2114953761}
   m_Layer: 0
   m_Name: MovingIcebergX (3)
-  m_TagString: Untagged
+  m_TagString: MovingIcebergTagX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19428,6 +19469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 17
   speed: 0.5
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!65 &2114953762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19498,10 +19540,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114953760}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -103.25101, y: 45.56579, z: -0.34933892}
-  m_LocalScale: {x: 5, y: 5, z: 7}
+  m_LocalPosition: {x: -32.99656, y: 0.8953934, z: -0.5896057}
+  m_LocalScale: {x: 5, y: 8, z: 7}
   m_Children: []
-  m_Father: {fileID: 1171018356}
+  m_Father: {fileID: 803145067}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2128165929

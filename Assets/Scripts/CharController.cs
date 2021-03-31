@@ -11,6 +11,7 @@ public class CharController : MonoBehaviour
     private bool isGrounded;
 
     public Rigidbody rigidBody;
+    private Vector3 groundMotion = new Vector3();
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class CharController : MonoBehaviour
 
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
         transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X") * 100, 0) * Time.deltaTime);
+        transform.Translate(groundMotion, Space.World);
 
         // Check if space key is pressed down
         if (Input.GetKeyDown(KeyCode.Space))
@@ -66,7 +68,39 @@ public class CharController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         isGrounded = true;
+        if (collision.gameObject.CompareTag("MovingIcebergTag"))
+        {
+            groundMotion = collision.gameObject.GetComponent<LoopMotionZ>().velocity;
+            //Debug.Log("Collision detected");
+        }
+        else if (collision.gameObject.CompareTag("MovingIcebergTagX"))
+        {
+            groundMotion = collision.gameObject.GetComponent<LoopMotionX>().velocity;
+        }
+
+        else
+        {
+            groundMotion = new Vector3(0, 0, 0);
+        }
+        
     }
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("MovingIcebergTag"))
+        {
+            groundMotion = collision.gameObject.GetComponent<LoopMotionZ>().velocity;
+            //Debug.Log("Collision detected");
+        }
+        else if (collision.gameObject.CompareTag("MovingIcebergTagX"))
+        {
+            groundMotion = collision.gameObject.GetComponent<LoopMotionX>().velocity;
+        }
+        else
+        {
+            groundMotion = new Vector3(0, 0, 0);
+        }
+    }
+
     private void OnCollisionExit(Collision collision)
     {
         isGrounded = false;
