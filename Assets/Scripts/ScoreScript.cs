@@ -19,6 +19,12 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         score.text = "Rocks collected: " + scoreValue + "/10";
+        if (scoreValue == 10)
+
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
+
 
 }
